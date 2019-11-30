@@ -13,7 +13,7 @@ body {
   font-size: 0.9rem !important;
 }
 .tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
-@media (min-width: 992px) {
+@media (min-width: 1080px) {
   .text-xl {
     font-size: 4.5rem !important;
   }
@@ -45,6 +45,10 @@ body {
 
 strong {
   font-weight: 700;
+}
+ 
+.small .text-gray .mb-0{
+  color:#fff;
 }
 
 .progress-primary-1 {
@@ -1098,6 +1102,11 @@ h6,
   font-size: 1rem;
 }
 
+
+.img{
+  position: relative;
+}
+
 .lead {
   font-size: 1.45rem;
   font-weight: 300;
@@ -1135,6 +1144,7 @@ small,
 .small {
   font-size: 80%;
   font-weight: 400;
+  color:#ccc9c6;
 }
 
 mark,
@@ -1319,7 +1329,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #4d0074 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
